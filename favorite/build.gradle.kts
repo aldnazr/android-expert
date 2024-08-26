@@ -10,7 +10,7 @@ apply(from = "../shared_dependencies.gradle")
 
 android {
     namespace = "com.android.favorite"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         minSdk = 26
@@ -20,10 +20,10 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
+//            proguardFiles(
+//                getDefaultProguardFile("proguard-android-optimize.txt"),
+//                "proguard-rules.pro"
+//            )
         }
     }
     compileOptions {
@@ -44,4 +44,5 @@ dependencies {
 
     implementation(libs.androidx.swiperefreshlayout)
     implementation(libs.lottie)
+    implementation(kotlin("script-runtime"))
 }
