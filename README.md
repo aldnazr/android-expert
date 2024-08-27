@@ -1,1 +1,1 @@
-[![aldnazr](https://app.circleci.com/pipelines/github/aldnazr/android-expert)
+[![aldnazr](https://circleci.com/gh/aldnazr/android-expert.svg?style=svg)](https://circleci.com/gh/aldnazr/android-expert)
